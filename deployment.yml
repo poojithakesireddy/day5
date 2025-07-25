@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: jenkinswebapp
-          image: pooji904/jenkinswebapp
+          image: pooji904/day5-site:latest
           ports:
             - containerPort: 80
